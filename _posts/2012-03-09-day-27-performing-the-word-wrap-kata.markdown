@@ -15,7 +15,7 @@ Today I performed the word wrap kata mentioned [yesterday](http://blog.cymen.org
 
 I think Doug had me perform the kata sooner than later even though I didn't feel quite prepared enough in order to show me the value of doing katas. I struggle to see the value of katas but I suspect it is fine to ignore that way of looking at it as the value is in the doing not in the thinking (before the fact). It seems somewhat like chanting common in Buddhism. It's foreign if not slightly jarring to those not used to it and the value is very hard to see as a non-participant. Both suggest daily practice too. I'll keep going down the path of the kata.
 
-[![](http://blog.cymen.org/wp-content/uploads/2012/03/4-i-dont-always-try-to-solve-the-wrong-tests-but-when-i-do-i-hate-programming.jpg)](http://blog.cymen.org/wp-content/uploads/2012/03/4-i-dont-always-try-to-solve-the-wrong-tests-but-when-i-do-i-hate-programming.jpg)
+[![](/assets/i-dont-always-try-to-solve-the-wrong-tests-but-when-i-do-i-hate-programming.jpg)](/assets/i-dont-always-try-to-solve-the-wrong-tests-but-when-i-do-i-hate-programming.jpg)
 
 The rest of the day I spent on some edges of Clojure that will be useful for in my HTTP server:
 

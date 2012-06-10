@@ -32,4 +32,4 @@ And add these two lines under [Atheros.NTX86] (or 64bit: [Atheros.NTamd64]):
 
 Now reinstall the driver using the folder with the modified .inf file as the driver source. Note that these instructions will work for Windows Server 2008 32bit, Server 2008 64bit, Vista 32bit and Vista 64bit.
 
-[vista-760126-whql-airpace](http://blog.cymen.org/wp-content/uploads/2008/11/vista-760126-whql-airpace.zip) (locally-hosted modified version to support Abit Airpace)
+[vista-760126-whql-airpace](/assets/vista-760126-whql-airpace.zip) (locally-hosted modified version to support Abit Airpace)
