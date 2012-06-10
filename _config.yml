@@ -10,6 +10,7 @@ paginate: 12
 # so be sure to set them if your theme uses them.
 #
 title : Cymen
+url: http://blog.cymen.org
 #tagline: Site Tagline
 author :
   name : Cymen Vig
@@ -26,4 +27,4 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://cymen.github.com
+production_url : http://blog.cymen.org
