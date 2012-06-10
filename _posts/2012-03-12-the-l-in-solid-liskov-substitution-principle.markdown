@@ -54,6 +54,6 @@ I'll write about the open/closed principle another day but a quick summary of it
 
 **Resources**
 
-  * Barbara Liskov's [keynote address to OOPSLA 1987 conference](http://dl.acm.org/citation.cfm?id=62141) (in which the principle was first discussed, unfortunately behind ACM paywall)
-  * Robert C. Martin - [The Liskov Substitution Principle](http://www.objectmentor.com/resources/articles/lsp.pdf) (PDF, second column for The C++ Report)
-  * Robert C. Martin - [Agile Software Development: Principles, Patterns and Practices](http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445/)
+* Barbara Liskov's [keynote address to OOPSLA 1987 conference](http://dl.acm.org/citation.cfm?id=62141) (in which the principle was first discussed, unfortunately behind ACM paywall)
+* Robert C. Martin - [The Liskov Substitution Principle](http://www.objectmentor.com/resources/articles/lsp.pdf) (PDF, second column for The C++ Report)
+* Robert C. Martin - [Agile Software Development: Principles, Patterns and Practices](http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445/)
