@@ -14,11 +14,11 @@ categories:
 
 [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) is an acronym from [Robert C. Martin](http://www.objectmentor.com/omTeam/martin_r.html) to aid in remembering these basic principles:
 
-  1. [Single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle)
-  2. [Open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle)
-  3. [Liskov substitution principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle)
-  4. [Interface segregation principle](http://en.wikipedia.org/wiki/Interface_segregation_principle)
-  5. [Dependency inversion principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle)
+1. [Single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle)
+2. [Open/closed principle](http://en.wikipedia.org/wiki/Open/closed_principle)
+3. [Liskov substitution principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle)
+4. [Interface segregation principle](http://en.wikipedia.org/wiki/Interface_segregation_principle)
+5. [Dependency inversion principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
 **Liskov substitution principle**
 
