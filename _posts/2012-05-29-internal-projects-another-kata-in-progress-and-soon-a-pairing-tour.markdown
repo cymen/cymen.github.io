@@ -28,16 +28,8 @@ Everyone here who uses vim seems to have their own tweaks and bindings. It would
 
 The parts I'm looking forward to off hand are:
 
-
-
-	
-  * seeing the types of projects being worked on
-
-	
-  * the approach of the craftsmen to development
-
-	
-  * the format of the stories being worked on and how they are verified as accepted
-
+* seeing the types of projects being worked on
+* the approach of the craftsmen to development
+* the format of the stories being worked on and how they are verified as accepted
 
 There is of course more that I'm missing. On the flip side, I too am likely under observation so it should prove to be an interesting experience.
