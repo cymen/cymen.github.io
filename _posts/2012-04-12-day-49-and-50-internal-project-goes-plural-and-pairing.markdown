@@ -11,11 +11,6 @@ categories:
 - Backbone.js
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
-
 **Internal project goes plural**
 
 The apprentice team is now working on multiple internal projects. The two are split off of one. I think the whole team was happy with this outcome.

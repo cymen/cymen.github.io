@@ -12,10 +12,6 @@ categories:
 - JavaScript
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 **Backbone.js**
 
 The internal project now uses Backbone.js along with Backbone-Relational.js to manage items and item comments. There is one complication though: the user interface relies on a "pop up" window which is a jQuery UI Dialog window (in other words, it's not a real pop-up but one within the page that mimics a real popup without some of the annoyances of a real popup). So a lot of the Backbone.js views need to render into this dialog panel instead of using a controller and rendering to the page. The problem with this is that Backbone.js relies heavily on events and one has to unbind events instead of letting Backbone.js manage that (at least I think that is how it is supposed to work). Hopefully, we can figure out an approach that requires less manual work.

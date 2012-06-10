@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 I completed the koans yesterday however I wasn't happy with a few solutions. I reviewed one of these with Doug and we tried to come up with a cleaner solution however it didn't really seem possible. Or at least nothing cleaner came from either of our minds. This is normally where I move on and let the subconscious take a crack at it.
 
 The next assignment is to work on a ruby implementation of tic tac toe that is:

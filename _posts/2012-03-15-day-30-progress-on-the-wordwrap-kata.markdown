@@ -10,10 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
-
 **Wordwrap Kata**
 
 Since performing the wordwrap kata for those in the office as a practice run it has been much easier to keep on doing the kata every day. In Robert Martin's example of the kata the code ends up with a branch at the bottom of the method like this:

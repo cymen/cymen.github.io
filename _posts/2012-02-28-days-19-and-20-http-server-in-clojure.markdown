@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 I spent yesterday and today working on my [clojure-http](https://github.com/cymen/clojure-http) project. These features work but are still rough:
 
 

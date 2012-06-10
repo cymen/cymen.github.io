@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 I finished the HTTP version of my tic-tac-toe ruby game in about two days instead of 1.5 weeks so I was out of things to do. In the morning I spent some time looking at how ASP.NET MVC compares to Ruby on Rails and spent some time moping about katas. I just don't get them to be honest. I'm guessing you have to "taste" them to get them but I have a hard time getting started. It may be that I don't like the idea of performing code in public. It may also be that so far I've gotten nothing out of attempting to observe katas at 8LU due to the projector resolution, contrast and sitting distance. I've tried to move closer but then the kata was in clojure which I wasn't familiar with so it was going too fast... I'll need to bite the bullet and just start doing a kata at the start and end of every day.
 
 I started the [Clojure Koans](https://github.com/functional-koans/clojure-koans) in the afternoon. I'm using [leiningen](https://github.com/technomancy/leiningen) which was very quick to get setup on Ubuntu 11.10. So far, I like it... The initial reaction is that the syntax is a bit terse and it's harder to break it into chunks but time with the REPL is helping.

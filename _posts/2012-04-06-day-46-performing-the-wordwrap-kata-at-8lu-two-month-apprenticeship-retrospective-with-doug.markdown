@@ -11,10 +11,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 **Performing the wordwrap kata at 8LU**
 
 I performed the wordwrap kata today at [8th Light University aka 8LU](http://university.8thlight.com/). It went well although I made a minor typo in the final test that caused it to fail to pass. That caused a slight moment of panic but it was quick to fix and recover. Doug has passed down another Kata challenge that sounds even trickier to do within the maximum time of 9-10 minutes.

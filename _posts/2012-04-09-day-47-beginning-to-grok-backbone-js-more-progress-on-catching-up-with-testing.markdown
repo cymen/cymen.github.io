@@ -11,10 +11,6 @@ categories:
 - Backbone.js
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 **Beginning to grok Backbone.js**
 
 Backbone.js is starting to make sense. At first, everything seemed simple and it mostly was. But then I started needed to render an edit view of a model and I tried to do this in place (tied to the same DOM element) as the display view. This created all kinds of problems with events. The symptom of the problem with events was that an event would be triggered once for the first edit attempt. Then the next edit attempt would trigger it twice. And it snowballed from there into a gigantic event storm. This matters because an event might POST an update to the server.

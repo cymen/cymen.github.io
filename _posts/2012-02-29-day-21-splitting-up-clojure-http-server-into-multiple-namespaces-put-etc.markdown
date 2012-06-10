@@ -11,9 +11,6 @@ categories:
 - Clojure
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 Spec testing is lacking in my [Clojure HTTP server project](https://github.com/cymen/clojure-http). In order to facilitate testing, I split up the "all in one" core.clj file (and namespace) into a bunch of files (and namespaces). While doing this, it became clearer that some things shared between the functions needed to be separated out in order to be reused in multiple namespaces.
 
 So the original project was basically:

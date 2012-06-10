@@ -11,10 +11,6 @@ categories:
 - University
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 The speaker at today's 8th Light University (on 3/23/2012) was [Stephanie Briones](http://stephaniebriones.com/). Stephanie completed a design apprenticeship under [Billy Whited](http://www.8thlight.com/our-team/billy-whited). Her presentation on bridging the gap between developers and designers was the final challenge in her apprenticeship. She is the first design apprentice to complete a residency at 8th Light!
 
 The presentation was fun. Stephanie started by presenting some of the issues that cause the gaps between the two camps and then focused on what can connect the two gaps. The final part of the presentation was designing a web application that had an overview screen, a login screen and screen to manage a subscriptions (possibly a large number). It was an interesting challenge. The audience divided up into groups based on where they were sitting with at least one designer in each group (8th Light is currently developer-heavy if that wasn't clear already). Then each team presented one or two designs.

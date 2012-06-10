@@ -10,10 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
-
 I'm going to do the wordwrap kata at an 8th Light University soon. Part of the process is now recording a run through and having it reviewed to ensure the kata is useful. I meant to get this done earlier this week but a perfect storm of nervousness, project deadlines on another projects, mulling over good ideas of how to show rspec output in vim (to avoid jumping back and forth) and figuring out screen recording in Linux meant I didn't get it done until today.
 
 

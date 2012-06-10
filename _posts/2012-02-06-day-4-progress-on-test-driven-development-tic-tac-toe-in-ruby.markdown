@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 After figuring out rspec I created classes for the board, scorer, and selector. I initially started on the minimax implementation after the scorer however in talking with Ben (add link) it was clear the single responsibility principle would be violated without separating out the code for selecting the horizontal, vertical and diagonal rows from the board.
 
 Ben and I talked a little bit about the implementation details on how the spaces are stored. It sounds like most people are using an array and converting the 0-8 indexed array to 1-9 labels on the front-end. I mulled over my options and went with a hash with the keys 1-9. Still not 100% certain it's the right path but I'd rather not deal with off by one errors (even with testing one still has to write additional code -- even more to test that off by ones aren't happening).

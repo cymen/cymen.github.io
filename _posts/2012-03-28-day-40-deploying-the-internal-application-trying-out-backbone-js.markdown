@@ -12,10 +12,6 @@ categories:
 - JavaScript
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 **Deploying the internal application**
 
 I paired with Ben for a good part of the day in a big push to get our internal rails application deployed to a production server. The server is running a specific version of ruby and while it does have RVM so in theory one could use any version in practice Passenger running under Apache is going to use a specific version of ruby with global gems for everything. You can install the passenger gem and compile an apache module and then use that in your virtual host configuration in apache but it's really ugly and a total hack. So we took the easy path and changed our development environment to match production. With the low cost of virtual machines, I think it makes sense to either have a couple of big servers with one running the most recent stable version of ruby or having one for each application if there is only a handful to begin with. On the other hand, maybe we can get the other applications on that server up to a more recent version of ruby and everyone benefits (if I recall correctly, 1.9.3 had some performance improvements over 1.9.2).

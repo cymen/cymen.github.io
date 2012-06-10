@@ -10,7 +10,4 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 Doug reviewed [my console-based tic-tac-toe solution in ruby](https://github.com/cymen/ttt-ruby). We discussed some of the areas that I had problems testing and some ruby patterns that could make some of my work more elegant. The next challenge is to make the project work with both a console and HTTP interface.

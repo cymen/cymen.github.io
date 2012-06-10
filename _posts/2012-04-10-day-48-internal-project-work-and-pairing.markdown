@@ -10,11 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
-
 The team working on the internal project was humming along today with two pairs going. It was hard to split up the work but we seemed to do a fairly good job of it. We're all a little concerned at the growing complexity of the stories however we are making forward progress.
 
 Ben and I extracted some basic CRUD methods shared by interactors into a base class. This cleaned things up quite a bit. I'd like to do the same with the mock interactors used in testing our controllers.

@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 I finished the Clojure Koans. These were quite a bit trickier than the Ruby Koans in that they required doing at least some research for some of the questions. But it certainly works well to focus and keep you going and at least seeing some code in passing that will look familiar in another context at a later point.
 
 I took the example of using server-socket from stack overflow and created a leiningen project for it and then put it up on github:

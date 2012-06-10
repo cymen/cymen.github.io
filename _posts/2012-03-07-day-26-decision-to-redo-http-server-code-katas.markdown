@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 **HTTP server**
 
 I discussed my HTTP server with Doug and he mentioned one option I had thought about earlier: why not start over? The main issue is not writing it with a test first approach which means the benefits of emergent design and series of simple tests serving as documentation aren't present. The github repository for the second attempt is at [clip-clop](https://github.com/cymen/clip-clop).

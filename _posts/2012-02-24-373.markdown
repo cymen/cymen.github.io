@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 Today at [8LU, Myles Megyesi](http://university.8thlight.com/), another resident apprentice, gave a talk on abstracting the business logic away from a Rails application by using an Interator ([sample application used in talk](https://github.com/mylesmegyesi/payroll)). An Interactor is basically a controller but in the more common use of the term not quite as it is used in MVC. The abstraction provided by an Interactor is putting the business logic (which the presentation pointed to as being in the models for a typical Rails application) in another area separate from the concerns of Rails.
 
 Coming from an ASP.NET MVC viewpoint, the talk was revealing in that some of the benefit of Rails is seen as a weakness. ASP.NET MVC doesn't have a standard data store interface like ActiveRecord. Instead, it is left up to the developer to choose whatever data store interface they would like and it is up to them to design and/or create the models. This is of course a bit of a weakness as a the usual Rails example of a blog in 15 minutes may take a while longer while connecting to a database is figured out (or later on when attempting to figure out how to actual interact with the database instead of Visual Studio "magic").

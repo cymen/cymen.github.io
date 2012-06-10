@@ -10,10 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 Mark and I paired on the internal projects today. We made some progress however it was slow going. Part of that was that we used Mark's laptop and he is currently using emacs. The problem is I'm not very familiar with emacs and he is just started a couple weeks ago so the answers to questions like "how do you delete the whole line" or how to quickly navigate the filesystem as with NerdTree in vim are not at hand right away. The most common editor at 8th Light from an apprentice perspective is vim with NerdTree and line numbering enabled. This is a good basic starting step that most seem to be familiar with. Some craftsmen are using GUI editors over vim as an overall preference and some use GUI editors when appropriate (working on Android, .NET, Java, etc) and otherwise use vim.
 
 Of course it is good to get familiar with new tools however it can be frustrating when that is not what one is attempting to focus on. But we kept going forward. At one point, we almost switched to vim but in the end it turned out to not be necessary.

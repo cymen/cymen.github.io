@@ -12,10 +12,6 @@ categories:
 - University
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 **More Backbone.js**
 
 I spent the morning looking at the branch of another internal project that uses Backbone.js to accomplish almost the same thing I need to do in the internal project. I'd started down the path of keeping jQuery UI and Backbone.js separate. On page load, I would kick off both and the communication between them would be by events. Another approach is to have Backbone.js be responsible for everything so it would configure and bind jQuery UI sortable to the lists. So far, I'm preferring keeping them separated by events because it seems cleaner to me. In either method, one is grepping the source tree to follow what exactly is going on and on that basis I don't see one being more optimal over another. But it is definitely something to think about and ponder on a long term basis. In the short term, I'm going to go forward with my approach to see if I hit any snags.

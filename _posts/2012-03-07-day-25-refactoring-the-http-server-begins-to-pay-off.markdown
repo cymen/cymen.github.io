@@ -10,9 +10,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
-
-
 The refactoring done over the last couple days to the HTTP server has begun to pay off. I am now able to test my HTTP response methods without having to use HTTP. The tests are still somewhat complicated as a hash of request headers is passed in along with an input stream containing any payload. I suspect if I had stuck with testing all along the structure of my code would be different (Uncle Bob has something to say about this in [The Transformation Priority Premise](http://cleancoder.posterous.com/the-transformation-priority-premise)). But at this point it is what it is -- I can't go back and recreate the likely more simplistic and more testable code along with the minor tests that both verify correctness and serve as documentation. I can try my best but it just isn't possible to do and I think that is an important discovery.
 
 The interesting thing about this experience is the different feel in development. Without testing code does seem to get written faster but refactorings induce more anxiety. The other track of testing while developing provides a steady stream of assurances in the form of passing tests while going "up the mountain" so to speak. Refactorings don't have the same issue because the tests stand ready to either verify your work or reveal your poor testing ability.

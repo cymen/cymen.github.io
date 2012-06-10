@@ -11,10 +11,6 @@ categories:
 - Apprentice
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
 **More pairing on Backbone.js**
 
 Mark and I paired in the morning on the internal project that utilizes Backbone.js. The project split into two and we worked on renaming from name A to B in both source and file and directory names. We used some bash scripting along with find, xargs, rename and sed to make the change. We were able to verify success by running our tests.

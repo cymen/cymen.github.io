@@ -14,9 +14,6 @@ categories:
 - jQuery
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
 Last night I realized one of the stories for our internal project was not only about design and in fact had a huge amount of work in it that we had not adequately estimated. The story was about enhancing the user interface so that it would be an "all in one page" application. When clicking on an item, it would be displayed in a window within the main view. I think we estimated only the design part of the story. So I faced the decision: do I stay up late trying to get this done or do we present the story as incomplete? In the end, both happened and I think that is an important lesson.
 
 So I stayed up working on the feature. I used jQuery UI dialogs to make the "windows within the main view" work as I've done before. However it was complete work as I needed to change all the links to work within the dialog instead of opening new pages. The server side was fairly straight forward: instead of returning a view with the layout (the layout having the site wrapper so logo, etc), return a partial which is only the contents of the actual view. Then I added some classes to all the links and had jQuery intercept the click action so that the content was fetched via AJAX and then put into the dialog window. This worked however I also needed to handle form posts.

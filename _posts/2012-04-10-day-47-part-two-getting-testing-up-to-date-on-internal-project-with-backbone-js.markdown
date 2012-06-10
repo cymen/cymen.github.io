@@ -12,11 +12,6 @@ categories:
 - JavaScript
 ---
 
-On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of [a series about my experience at 8th light as an apprentice](http://blog.cymen.org/category/8th-light/apprentice/).
-
-
-
-
 I spent the evening playing catch up on the testing for the Backbone.js version of the internal project. All of the collections, models and views are now tested. I was able to apply the approach used by Mike in [Childermass](https://github.com/mjansen401/childermass) in testing and it turned out to be straight forward with Jasmine and Sinon.
 
 I didn't get a chance to sit down with Mike on Friday. I wanted to discuss with him the approach used in test-driving Backbone.js application development. The problem with doing that as a beginner is that the architecture of the application is in flux. When starting out, it isn't uncommon to change the approach and this can be done fairly quickly however testing it would increase the time for the learning curve. But maybe there are aspects I'm missing and maybe that increased time is worth it. We do have some new features for the internal project so I will develop them test-driven now that the architecture is clearly defined.
