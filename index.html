@@ -1,0 +1,41 @@
+---
+layout: base 
+---
+
+{% for post in paginator.posts %}
+  <div class="post">
+    <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+    <div class="post-date">{{ post.date | date: "%B %e, %Y" }}</div>
+    <div class="post-content">{{ post.content }}</div>
+    <h5><a href="{{ BASE_PATH }}{{ post.url }}#disqus_thread">Comments and Reactions</a></h5>
+  </div>
+{% endfor %}
+
+<nav id="pagination">
+  <span class="pull-left">
+    {% if paginator.next_page %} 
+    <a href="/page{{ paginator.next_page }}/" title="Older Entries">&laquo; Older Entries</a>
+    {% endif %} 
+  </span>
+
+  <span class="pull-right"> 
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a href="/" title="Newer Entries">Newer Entries &raquo;</a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page }}/" title="Newer Entries">Newer Entries &raquo;</a>
+      {% endif %}
+    {% endif %}
+  </span>
+</nav>
+
+<script type="text/javascript">
+var disqus_shortname = "blog-cymen";
+
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>

@@ -1,0 +1,22 @@
+---
+date: '2012-02-24 14:21:40'
+layout: post
+slug: '373'
+status: publish
+title: 'Day 18: 8LU, the Interactor pattern and automapper'
+wordpress_id: '373'
+categories:
+- 8th Light
+- Apprentice
+---
+
+On February 1st, 2012, I started a [Software Craftsman apprenticeship](http://www.8thlight.com/apprenticeship) with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) in order to study the agile approach to software development. This post is one of a series about my experience at 8th light as an apprentice.
+
+
+Today at [8LU, Myles Megyesi](http://university.8thlight.com/), another resident apprentice, gave a talk on abstracting the business logic away from a Rails application by using an Interator ([sample application used in talk](https://github.com/mylesmegyesi/payroll)). An Interactor is basically a controller but in the more common use of the term not quite as it is used in MVC. The abstraction provided by an Interactor is putting the business logic (which the presentation pointed to as being in the models for a typical Rails application) in another area separate from the concerns of Rails.
+
+Coming from an ASP.NET MVC viewpoint, the talk was revealing in that some of the benefit of Rails is seen as a weakness. ASP.NET MVC doesn't have a standard data store interface like ActiveRecord. Instead, it is left up to the developer to choose whatever data store interface they would like and it is up to them to design and/or create the models. This is of course a bit of a weakness as a the usual Rails example of a blog in 15 minutes may take a while longer while connecting to a database is figured out (or later on when attempting to figure out how to actual interact with the database instead of Visual Studio "magic").
+
+The key point of the presentation was that the abstraction makes it possible to separate the concerns enough that additions to the system would result in the addition of new classes instead of having to modify the existing classes (Models in this case). During the second half of my time with ASP.NET MVC I started to use AutoMapper and occasional use View Models. AutoMapper was created specifically to map between similar objects with one object coming from the data store and another object being created or having been updated by the application. The way AutoMapper works is it checks for the presence of the same properties on the two objects and if the types are the same it maps them over.
+
+The reason AutoMapper is interesting in this case is that the Interactor implementation in Myles presentation ended up doing mapping between the model from the data store (an ActiveRecord object) and the model being passed by the Interactor to Rails (a simple object). AutoMapper was created to automate this exact thing and it is quite handy to have. Unfortunately, AutoMapper requires the creation of a map and has some limitations that are surprising if one isn't very familiar with how it works. For some of my work, I ended up using reflection as the speed hit from AutoMapper was too large and I didn't need the majority of the features. Because of the loose type in Ruby, I'm left wondering how useful a tool like AutoMapper would be in the Interactor pattern. It looks like the same people that created the C# AutoMapper made one for ruby [automapper](http://rubygems.org/gems/automapper).

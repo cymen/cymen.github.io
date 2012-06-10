@@ -1,0 +1,40 @@
+---
+layout: base
+---
+
+<div class="post">
+  <h3><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></h3>
+    <h5><a href="{{ BASE_PATH }}{{ page.url }}#disqus_thread">Comments and Reactions</a></h5>
+  <span>{{ page.date | date: "%B %e, %Y" }}</span>
+  <div class="post-content">{{ content }}</div>
+
+  {% unless page.categories == empty %}
+  <div class="post-category">
+  <span class="category-label">Categories:</span>
+    {% for category in page.categories %}
+    <span class="category">{{ category }}</span>
+    {% endfor %}
+  </div>
+  {% endunless %}
+
+  {% unless page.tags == empty %}
+  <div class="post-tag">
+  <span class="tag-label">Tags:</span>
+    {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endunless %}  
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = "blog-cymen";
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
