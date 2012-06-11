@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{site.title}}</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
