@@ -8,6 +8,7 @@ layout: nil
     <description>{{ site.description }}</description>
     <link>{{ site.url }}</link>
     <language>en-us</language>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     {% for post in site.posts limit:10 %}
     <item>
       <title>{{ post.title }}</title>
