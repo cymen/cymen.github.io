@@ -1,0 +1,32 @@
+<div id="sidebar">
+  <h3><a href="/about">About</a></h3>
+  <h3><a href="https://twitter.com/#!/cymen" target="_blank">Twitter</a></h3>
+  <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+  <script>
+  new TWTR.Widget({
+    version: 2,
+    type: 'profile',
+    rpp: 3,
+    interval: 30000,
+    width: 'auto',
+    height: 300,
+    theme: {
+      shell: {
+        background: '#ffffff',
+        color: '#000000'
+      },
+      tweets: {
+        background: '#ffffff',
+        color: '#000000',
+        links: '#08C'
+      }
+    },
+    features: {
+      scrollbar: false,
+      loop: false,
+      live: false,
+      behavior: 'all'
+    }
+  }).render().setUser('cymen').start();
+  </script>
+</div>
