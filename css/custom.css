@@ -7,6 +7,8 @@ h1 a {
   text-decoration: none !important;
 }
 
+/* page */
+
 #pagination {
   padding: 1em 0 8em 0;
 }
@@ -30,6 +32,8 @@ h1 a {
   text-align: right
 }
 
+/* post */
+
 .post {
   padding-bottom: 3em;
 }
@@ -43,3 +47,22 @@ h1 a {
 .post-date {
   padding-bottom: 0.8em;
 }
+
+/* sidebar */
+
+#sidebar {
+  border-left: 1px solid #ddd;
+  padding-left: 0.8em;
+}
+
+#sidebar h3:first {
+  margin-top: 0 !important;
+}
+
+#sidebar h3 {
+  margin-top: 0.6em;
+}
+
+/* twitter */
+.twtr-hd, .twtr-ft { display: none; }
+.twtr-tweet-wrap { padding: 5px 0px 5px 0px !important; }
