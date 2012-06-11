@@ -9,7 +9,7 @@ categories:
 - Apprenticeship 
 ---
 
-I met Josh downtown for the first of two pairing days. On the way in, I ran into Craig, Chris and Mark who were also onsite at the same client. The project is a large web application that relies on a number of compartmentalized Rails applications. The setup was interesting and not without some minor issues.
+I met [Josh](http://www.8thlight.com/our-team/josh-cheek) downtown for the first of two pairing days. On the way in, I ran into Craig, Chris and Mark who were also onsite at the same client. The project is a large web application that relies on a number of compartmentalized Rails applications. The setup was interesting and not without some minor issues.
 
 Josh picked up a 3.3 point story and we started working on it. The compartmentalization meant it took a little while to figure out where things were and how they tied together but pairing makes that all much easier. One of the interesting side effects of the compartmentalization is that when communicating from one Rails instance to another the controller input gets converted to strings. So for example, a boolean value of true gets converted to the string 'true'. However that was not true in testing depending on where we were injecting values. So the code ended up looking a bit like this:
 
