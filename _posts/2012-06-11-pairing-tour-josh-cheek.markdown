@@ -3,7 +3,7 @@ date: '2012-06-11 16:42:00'
 layout: post
 slug: pairing-tour-josh-cheek 
 status: publish
-title: Pairing tour: Josh Cheek 
+title: 'Pairing tour: Josh Cheek'
 categories:
 - 8th Light
 - Apprenticeship 
@@ -20,4 +20,4 @@ The `to_s` would handle the case where the tests injected a boolean value and th
 
 I did think the setup was interesting as it compartmentalized testing. I only read a small portion of the code base but I could imagine that if it were all combined into one large application it would be painful in other ways. So it's not really a case of good and bad but just knowing what the trade offs are and being prepared for them.
 
-While coding with Josh I was thrown off a couple times by RSpec matchers that I didn't know about. It was exciting to learn about some of them and it was clear that I should learn some more RSpec.
+While coding with Josh I was thrown off a couple times by RSpec matchers that I didn't know about. It was exciting to learn about some of them and it was clear that I should learn some more RSpec. At the end of the day, we had completed the 3.3 point story and Josh paired with another person on another 0.5 point story to set some configuration data. It made me happy that our work implemented the required functionality without overly complicated tests or an excessive number of lines of code (each line was warranted).
