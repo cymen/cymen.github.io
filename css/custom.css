@@ -56,11 +56,11 @@ h1 a {
   padding-bottom: 10em;
 }
 
-#sidebar h3:first {
+#sidebar h4:first {
   margin-top: 0 !important;
 }
 
-#sidebar h3 {
+#sidebar h4 {
   margin-top: 0.6em;
 }
 
