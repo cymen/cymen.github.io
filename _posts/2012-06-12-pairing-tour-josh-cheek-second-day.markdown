@@ -9,7 +9,7 @@ categories:
 - Apprenticeship 
 ---
 
-(Josh)[http://www.8thlight.com/our-team/josh-cheek] and I paired for a second day at a client site. As mentioned yesterday, the project is composed of many parts that communicate together to create an application. Each part is a Rails application or a Ruby gem that wraps a Rails application.
+[Josh](http://www.8thlight.com/our-team/josh-cheek) and I paired for a second day at a client site. As mentioned yesterday, the project is composed of many parts that communicate together to create an application. Each part is a Rails application or a Ruby gem that wraps a Rails application.
 
 Today we picked up a story related to the one we'd worked on yesterday. It required that we change things in a number of different parts. Our final change for the day was a bit daunting: we only knew a Ruby gem wrapped a complicated part of the system and we needed that complicated part to do a specific thing in a specific case. In other words, we needed to send in something to a black box and have it give us an expected response depending on our input. Thankfully, this turned out to be a fairly straight forward change.
 
