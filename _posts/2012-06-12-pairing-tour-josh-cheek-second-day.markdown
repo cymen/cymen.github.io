@@ -16,6 +16,6 @@ Today we picked up a story related to the one we'd worked on yesterday. It requi
 Pairing with Josh has been both productive and fun. We finished or made up on a number of stories. It was interesting to get a feel for his coding style. He has created [a number of Ruby gems](http://rubygems.org/profiles/JoshCheek) including:
 * [deject](https://github.com/JoshCheek/deject): Simple dependency injection
 * [surrogate](https://github.com/JoshCheek/surrogate): Better mocks including appropriately RSpec matchers, [help insuring mock doesn't get out of sync](https://github.com/JoshCheek/surrogate#substitutability), and more! Josh [wrote a blog post](http://blog.8thlight.com/josh-cheek/2011/11/28/three-reasons-to-roll-your-own-mocks.html) going into the why.
-* [pbcopy](https://github.com/JoshCheek/pbcopy): Copy to the system clipboard on OS X from Ruby code just like the pbcopy command.
+* [pbcopy](https://github.com/JoshCheek/pbcopy): Copy to the system clipboard on OS X from Ruby code just like the pbcopy command. 
 
 Next on the pairing tour is [Micah](http://www.8thlight.com/our-team/micah-martin) for Wednesday and Thursday.
