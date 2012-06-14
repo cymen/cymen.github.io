@@ -19,3 +19,4 @@ Pairing with Josh has been both productive and fun. We finished or made up on a 
 * [pbcopy](https://github.com/JoshCheek/pbcopy): Copy to the system clipboard on OS X from Ruby code just like the pbcopy command. 
 
 Next on the pairing tour is [Micah](http://www.8thlight.com/our-team/micah-martin) for Wednesday and Thursday.
+
