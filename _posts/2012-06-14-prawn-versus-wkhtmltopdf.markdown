@@ -3,7 +3,7 @@ date: '2012-06-14 20:14:00'
 layout: post
 slug: prawn-versus-wkhtmltopdf
 status: publish
-title: 'Prawn or wkhtmltopdf?"
+title: 'Prawn or wkhtmltopdf?'
 categories:
 - Ruby
 - PDF
