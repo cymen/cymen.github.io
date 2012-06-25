@@ -3,7 +3,7 @@ date: '2012-06-22 16:15:00'
 layout: post
 slug: challenges
 status: publish
-title: 'Challenges'
+title: Challenges
 categories:
 - Apprenticeship
 ---
