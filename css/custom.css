@@ -25,6 +25,11 @@ h3 {
   line-height: 64px;
 }
 
+h4 {
+  font-size: 18px;
+  line-height: 34px;
+}
+
 .sidebar {
   padding-left: 40px;
 }
