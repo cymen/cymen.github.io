@@ -7,7 +7,7 @@ title: About
 wordpress_id: '2'
 ---
 
-I am currently a Software Craftsmen with [8th Light](http://www.8thlight.com/) in Chicago. After a number of years of programming experience on a variety of platforms, I accepted an apprenticeship with 8th Light under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury) focusing on becoming a software craftsman. I made this move because I suspected test-driven development with agile methods was likely the best way to develop software when considering the life of a software project.
+I am a Software Craftsmen working at [8th Light](http://www.8thlight.com/) in Chicago. After a number of years of programming experience on a variety of platforms, I accepted an apprenticeship with 8th Light starting in February of 2012 under [Doug Bradbury](http://www.8thlight.com/our-team/doug-bradbury). I sought and accepted the apprenticeship because I suspected test-driven development with agile methods was likely the best way to develop software when considering the life of a software project. I still believe that today after working on several projects using these techniques.
 
 I have a diverse background in IT that began after high school working for a small consulting company in Chicago with projects ranging from website development, Lotus Notes programming, network setup and server management. I continued my education in Wisconsin graduating from the University of Wisconsin at Madison with a B.S. in Computer Science.
 
