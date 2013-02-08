@@ -1,11 +1,12 @@
 body {
-  -moz-font-smoothing:antialiased;
-  -webkit-font-smoothing:antialiased;
+  font-family: 'PT Serif', serif;
   color:#404040;
-  font-size:14px;
-  font-smoothing:antialiased;
+  font-size:16px;
+  font-smoothing: antialiased;
   line-height:1.5em;
-  text-rendering:optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -15,6 +16,10 @@ h1 {
 h1 a {
   color: #222;
   text-decoration: none !important;
+}
+
+.sidebar {
+  padding-left: 40px;
 }
 
 /* page */
