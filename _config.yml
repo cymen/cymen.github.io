@@ -11,13 +11,13 @@ paginate: 12
 #
 title : Cymen Vig
 url: http://blog.cymen.org
-#tagline: Site Tagline
+tagline: Software Craftsman
 author :
   name : Cymen Vig
   email : cymenvig@gmail.com 
   github : cymen 
   twitter : cymen 
-  #feedburner : feedname
+  feedburner : CymensBlog
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
