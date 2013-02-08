@@ -26,17 +26,17 @@ layout: base
   {% endunless %}  
 
   <div id="page-navigation"> 
-    <div class="pull-left span4"> 
+    <div class="pull-left span3">
       {% if page.previous.url %} 
       <a href="{{page.previous.url}}" title="Previous Post: 
-        {{page.previous.title}}">&laquo; {{page.previous.title}}</a> 
+        {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
       {% endif %} 
     </div> 
 
-    <div class="pull-right span4"> 
+    <div class="pull-right span3">
       {% if page.next.url %} 
       <a href="{{page.next.url}}" title="next Post: 
-        {{page.next.title}}">{{page.next.title}} &raquo; </a> 
+        {{page.next.title}}">{{page.next.title}} &raquo; </a>
       {% endif %} 
     </div> 
   </div> 
