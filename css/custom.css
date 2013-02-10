@@ -25,6 +25,10 @@ h4 {
   line-height: 34px;
 }
 
+pre {
+  line-height: 24px;  /* bootstrap messing up gists with a 18px line-height */
+}
+
 .header {
   padding: 0.6em 0 2em 0;
 }
