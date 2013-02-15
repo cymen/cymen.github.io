@@ -4,8 +4,6 @@ layout: post
 slug: software-craftsman-update
 status: publish
 title: Software Craftsman Update
-categories:
-- Hardware
 ---
 
 JavaScript
