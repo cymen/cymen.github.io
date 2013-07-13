@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+<h2>
+  <a href="/{{page.year}}">{{page.year}}</a>
+  &mdash;
+  <a href="/{{ page.year }}/{{ page.month_padded }}">{{page.month || to_month}}</a>
+  &mdash;
+  {{page.day}}
+</h2>
+
+<ul>
+  {% for p in site.collated_posts[page.year][page.month][page.day] reversed %}
+    <li><a href='{{ p.url }}'>{{ p.title }}</a></li>
+  {% endfor %}
+</ul>
