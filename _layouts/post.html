@@ -5,7 +5,8 @@ layout: base
 <div class="post">
   <h3><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></h3>
   <div class="post-date">
-    <a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}">{{ page.date | date: "%B %e, %Y" }}</a>
+    {{ page.date | date: "%B %e, %Y" }}
+    <!-- <a href="/{{ page.date | date: '%Y' }}/{{ page.date | date: '%m' }}/{{ page.date | date: '%d' }}">{{ page.date | date: "%B %e, %Y" }}</a> -->
   </div>
   <div class="post">{{ content }}</div>
 
