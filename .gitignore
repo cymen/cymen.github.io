@@ -1,4 +1,5 @@
 _site/*
+server/*
 Thumbs.db
 .DS_Store
 !.gitkeep

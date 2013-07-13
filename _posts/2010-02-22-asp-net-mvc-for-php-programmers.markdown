@@ -13,6 +13,6 @@ categories:
 
 Routes are rewrite rules with the "object defaults" part of the routes being similar to the variables parsed out of the URL via mod_rewrite (but they the "object defaults" can store values from other sources so the routes are somewhat like a data store).
 
-ViewData[] is similar to a global variable in PHP and it is populated by the Controllers and seen by the Models.
+ViewData\[\] is similar to a global variable in PHP and it is populated by the Controllers and seen by the Models.
 
 Lots of differences of course but just a quick thought...

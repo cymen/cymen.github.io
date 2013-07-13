@@ -14,6 +14,6 @@ I spent part of the morning writing some CRUD code for an interactor. If you rec
 
 Then I figured out how to setup [capistrano](https://github.com/capistrano/capistrano/wiki) as vlad is painful. Maybe it's just the way we're using it but it just wasn't very clear. It was fairly straight forward to get capistrano working including have it run the database migration.
 
-After that, I finished the configuration of a wildcard SSL certificate for *.8thlight.com. We now have a valid certification we can use for SSL. It was interesting to see the whole process from the certificate signing request through to adding the certificate and intermediate certificate to the web server configuration.
+After that, I finished the configuration of a wildcard SSL certificate for \*.8thlight.com. We now have a valid certification we can use for SSL. It was interesting to see the whole process from the certificate signing request through to adding the certificate and intermediate certificate to the web server configuration.
 
 Finally, I finished the split of the internal application into two applications by migrating the data to one of the new ones. Our database migration scripts didn't handle data properly so that is one area we have to make sure we pay attention to now that we have actual production systems with production data. 

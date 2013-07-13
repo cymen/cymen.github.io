@@ -10,7 +10,7 @@ categories:
 - Programming
 ---
 
-**Installing Go on Ubuntu (*)**
+**Installing Go on Ubuntu**
 To install Go on my Ubuntu system I used the directions at [golang.org/doc/install.html](http://golang.org/doc/install.html) using ~/dev/go as my build location. The initial attempted to run "./all.bash" failed. Go requires bison which can be installed with "sudo apt-get install bison". The second run of "./all.bash" succeeded and after a couple minutes ~/dev/go/bin contained the 6g set of executables for amd64 (as [opposed to 5g for arm or 8g for 386](http://golang.org/doc/go_faq.html#What_kind_of_a_name_is_6g) or [something else on other operating systems](http://golang.org/doc/install.html#fetch)).
 
 The final step was to add the folowing to my ~/.bash_profile:
