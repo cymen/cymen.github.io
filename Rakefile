@@ -67,16 +67,15 @@ end # task :post
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server"
+  system "jekyll --watch serve"
 end # task :preview
 
-namespace :jekyll do
-  desc "start the jekyll server in auto mode"
-  task :server, :num_posts do |t, args|
-    num_posts = args[:num_posts]
-    cmd = "jekyll --auto --server --pygments"
-    cmd += " --limit_posts #{num_posts}" if num_posts
-    puts "running #{cmd}"
-    exec(cmd)
-  end 
-end
+desc "start the jekyll server in auto mode"
+task :default, :num_posts do |t, args|
+  num_posts = args[:num_posts]
+  cmd = "jekyll --watch"
+  cmd += " --limit_posts #{num_posts}" if num_posts
+  cmd += " serve"
+  puts "running #{cmd}"
+  exec(cmd)
+end 
