@@ -16,10 +16,13 @@ financial success.
 Interviews
 ----------
 
-Apply for two jobs a year. The point of doing this is to:
+Apply for a couple of jobs a year. The point of doing this is to:
 
 * verify your worth on the job market
 * practice your interview skills
+* learn what is out there on the market
+* improve your negotiation skills
+* potentially end up with a new job
 
 It is important to approach this task with the mind set that if you are happy
 with the outcome of the meeting you might just take the job. It is also
