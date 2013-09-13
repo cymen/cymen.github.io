@@ -115,6 +115,11 @@ account that you can access within a day or two. You should be prepared to weath
 these setbacks without undue stress so that you can continue being a professional
 in your daily life.
 
+Additional Resources
+--------------------
+
+* Reddit [r/personalfinance](http://www.reddit.com/r/personalfinance) (note the sidebar with details on different types of retirement accounts)
+
 Conclusion
 ----------
 
