@@ -30,7 +30,7 @@ important to not divulge the reason for your interview; as a professional,
 you have an obligation to continue to grow and considering new prospects is
 an important part of your career.
 
-Note that it important to be discreet about this activity. The point is not to
+Note that it is important to be discreet about this activity. The point is not to
 go out for an interview and then come back to your employer and try to use that
 offer to negotiate a raise. The point is to know your value on the market so
 that you are in a good position to negotiate the salary you want for the position
