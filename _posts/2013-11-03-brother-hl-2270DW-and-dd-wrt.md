@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brother HL-2270DW and DD-WRT
+title: 'Brother HL-2270DW and DD-WRT'
 ---
 
 The Brother HL-2270DW is an excellent and inexpensive laser printer with support
