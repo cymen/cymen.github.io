@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Brother 2270DW and DD-WRT
+title: Brother HL-2270DW and DD-WRT
 ---
 
-The Brother 2270DW is an excellent and inexpensive laser printer with support
+The Brother HL-2270DW is an excellent and inexpensive laser printer with support
 for both wireless network connection and duplex printing. DD-WRT is a useful
 firmware replacement for many network devices. At first, the two did not want
 to play together but I figured out that the network settings for DW-WRT need
