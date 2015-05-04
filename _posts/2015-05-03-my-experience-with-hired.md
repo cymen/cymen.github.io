@@ -3,7 +3,7 @@ layout: post
 title: "My experience with Hired
 description: ""
 category: 
-tags: [career]
+tags:
 ---
 
 A couple of months ago I decided to try [Hired.com](http://join.hired.com/x/XfELvW). I was interviewing in San Francisco but it was very hit and miss. It was both hard to get time off to interview and sometimes those doing the interviewing were clearly unprepared. It felt like a huge waste of time.
