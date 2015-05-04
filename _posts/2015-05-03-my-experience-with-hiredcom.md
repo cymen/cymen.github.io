@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My experience with Hired.com
+title: "My experience with Hired
 description: ""
 category: 
 tags: [career]
@@ -26,4 +26,4 @@ I can’t recommend [Hired.com](http://join.hired.com/x/XfELvW) enough. There is
 
 I am not comfortable revealing my full compensation (see [#TalkPay](https://twitter.com/search?q=%23talkpay)) but I will say that I ended up getting exactly what I asked for. Now it is on me to deliver that value to the startup I joined and I am extremely happy to do it knowing that I am being fairly compensated.
 
-Full disclosure: the [Hired.com](http://join.hired.com/x/XfELvW) links above are using my referral code. I’ll get a bonus if you use my link. A former coworker referred me to [Hired.com](http://join.hired.com/x/XfELvW) and I was happy to send a bonus his way.
+*Full disclosure: the [Hired.com](http://join.hired.com/x/XfELvW) links above are using my referral code. I’ll get a bonus if you use my link. A former coworker referred me to [Hired.com](http://join.hired.com/x/XfELvW) and I was happy to send a bonus his way.*
