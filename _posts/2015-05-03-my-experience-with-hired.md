@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My experience with Hired
+title: "My experience with Hired"
 description: ""
 category: 
 tags:
