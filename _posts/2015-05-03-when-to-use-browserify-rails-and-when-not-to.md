@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When to use [browserify-rails](https://github.com/browserify-rails/browserify-rails) and when not to"
+title: "When to use browserify-rails and when not to"
 description: ""
 category: 
 tags: []
