@@ -100,6 +100,23 @@ pre {
   margin-top: 0.6em;
 }
 
+.social {
+  margin-top: 15px;
+}
+
 /* twitter */
+.twitter {
+  margin-top: 15px;
+}
+
 .twtr-hd, .twtr-ft { display: none; }
 .twtr-tweet-wrap { padding: 5px 0px 5px 0px !important; }
+
+/* instagram */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .ig-b-32 {
+    background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png);
+    background-size: 60px 178px;
+  }
+}
