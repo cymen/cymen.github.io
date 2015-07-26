@@ -1,6 +1,6 @@
 body {
   font-family: 'PT Serif', serif;
-  color: #404040;
+  color: #56505C;
   font-size: 16px;
   font-smoothing: antialiased;
   line-height:1.5em;
@@ -35,7 +35,7 @@ pre {
 }
 
 .header a {
-  color: #222;
+  color: #0096BE;
   text-decoration: none !important;
 }
 
