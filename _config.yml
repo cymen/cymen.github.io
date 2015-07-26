@@ -3,6 +3,7 @@ permalink: /:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 paginate: 12
+gems: ["jekyll-prism-plugin"]
 
 title : Cymen Vig
 url: http://blog.cymen.org
