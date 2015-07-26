@@ -39,11 +39,11 @@ pre {
   text-decoration: none !important;
 }
 
-.post a {
+.social a, .post a {
   color: #0096BE;
 }
 
-.post a:hover {
+.social a:hover, .post a:hover {
   color: #00638B;
 }
 
@@ -110,6 +110,10 @@ pre {
 
 .social {
   margin-top: 15px;
+}
+
+.social .fa {
+  margin-left: 8px;
 }
 
 /* twitter */

@@ -1,26 +1,23 @@
-# This is the default format. 
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:year/:month/:day/:title 
+permalink: /:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 paginate: 12
 
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
 title : Cymen Vig
 url: http://blog.cymen.org
 tagline: Software Craftsman
 author :
   name : Cymen Vig
-  email : cymenvig@gmail.com 
-  github : cymen 
-  twitter : cymen 
+  email : cymenvig@gmail.com
+  github : cymen
+  twitter : cymen
+  instagram: cym3n
+  flickr: cymen
   feedburner : CymensBlog
 
 # The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
+# such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
