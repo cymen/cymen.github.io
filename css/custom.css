@@ -35,8 +35,16 @@ pre {
 }
 
 .header a {
-  color: #0096BE;
+  color: #56505C;
   text-decoration: none !important;
+}
+
+.post a {
+  color: #0096BE;
+}
+
+.post a:hover {
+  color: #00638B;
 }
 
 .sidebar {
