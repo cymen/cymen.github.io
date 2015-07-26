@@ -1,5 +1,5 @@
 body {
-  font-family: 'PT Serif', serif;
+  font-family: Roboto, serif;
   color: #56505C;
   font-size: 16px;
   font-smoothing: antialiased;
@@ -25,9 +25,8 @@ h4 {
   line-height: 34px;
 }
 
-pre {
+code[class*="language-"], pre[class*="language-"] {
   font-size: 16px;
-  line-height: 24px;  /* bootstrap messing up gists with a 18px line-height */
 }
 
 .header {
