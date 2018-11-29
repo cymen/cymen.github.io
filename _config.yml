@@ -3,7 +3,6 @@ permalink: /:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: kramdown
 paginate: 12
-gems: ["jekyll-prism-plugin"]
 
 kramdown:
   input:          GFM
