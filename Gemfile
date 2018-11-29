@@ -10,3 +10,4 @@ gem 'rdiscount'
 gem 'RedCloth'
 gem 'kramdown'
 gem 'jekyll-prism-plugin'
+gem "github-pages", group: :jekyll_plugins
