@@ -82,7 +82,7 @@ and see a practical example.
 
 browser.js:
 
-{% highlight javascript linenos %}
+```javascript
 define(['jquery'], function($, userAgent) {
 
     var ua = userAgent || navigator.userAgent;
@@ -128,7 +128,7 @@ require(['jquery.js', 'browser.js'], function(jQuery) {
         //...
     });
 });
-{% endhighlight %}
+```
 
 The point of this code is to check the web browser engine and version. The code
 in browser.js is a slightly modified version of the deprecated jQuery.browser.
