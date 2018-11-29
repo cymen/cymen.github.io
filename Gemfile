@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'jekyll'
-gem 'pygments.rb'
+gem 'rouge'
 gem 'liquid'
 gem 'redcarpet'
 gem 'maruku'
