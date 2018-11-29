@@ -107,11 +107,11 @@ define(['jquery'], function($, userAgent) {
         }
     };
 });
-{% endhighlight %}
+```
 
 browser_spec.js:
 
-{% highlight javascript linenos %}
+```javascript
 require(['jquery.js', 'browser.js'], function(jQuery) {
     describe("Browser", function() {
 
